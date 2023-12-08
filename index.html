@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/bootstrap-5.3.2-dist/css/bootstrap.css">
+    
+</head>
+<body>
+    <body class="col-12">
+        <!-- <h1 class="text-center fw-bold my-3 text-decoration-underline ">Budget Tracker</h1> -->
+        <select class="ms-3 my-3" name="month" id="month">
+          <option value="">Monday</option>
+          <option value="">Tuesday</option>
+          <option value="">Wednesday</option>
+          <option value="">Thursday</option>
+          <option value="">Friday</option>
+          <option value="">Saturday</option>
+          <option value="">Sunday</option>
+        </select>
+        
+        <div class="body_1">
+
+            <div class="top-container d-flex col-12 pb-3 text-white">
+                <div class="col-lg-6 col-12 p-4">
+                    <h2 class="mt-lg-2 mt-2 ms-lg-2 monthly">Monthly Balance</h2>
+                    <h1 class="ms-lg-2" id="bal">$300,000</h1>
+                </div>
+                <div class="col-3 col-lg-6 d-none d-lg-block bag  "><img src="pngwing.com.png" width="200px" alt=""></div>
+            </div>
+        </div>
+        <div class="body_2 col-12 text-white container-fluid d-flex gap-3 mt-3 px-3">
+            <div class="left_div rounded-2 p-4 col ">
+                <h2 class=" lg-ms-5"> Daily Balance</h1>
+                <h1 class="lg-ms-5" id="daily">$10000</h2>
+
+            </div>
+
+            <div class="right_div rounded-2 p-4 col ">
+                    <h2 class=" lg-ms-5 lg-mt-2 "> Total Expenses</h1>
+                    <h1 class="lg-ms-5 lg-mt-2" id="exp">$0</h2>
+                </div>
+            </div>
+            <div class="bottom-content"><h1 class="text-center my-3 fw-bolder ">TODAY</h1></div>
+            <div id="err" class="text-danger fs-2 text-center fw-bolder"></div>
+            <div class="container">
+                <div class="d-flex col align-items-center container-fluid mt-3 gap-5">
+                    <div class="col d-flex align-items-center ">
+                       <img style="height: 20px;" src="images/smartphone-heart-svgrepo-com.png" alt="">
+                       <div class="exp">Phone</div>
+                    </div>
+                    <div class="col text-end zero"><input type="number" id="phone" placeholder="$0"></div>
+                  </div>
+                  <div class="d-flex col align-items-center container-fluid mt-3 gap-5">
+                    <div class="col d-flex align-items-center ">
+                       <img style="height: 20px;" src="images/burger-huge-svgrepo-com.png" alt="">
+                       <div class="exp">Food</div>
+                    </div>
+                    <div class="col text-end zero"><input type="number" id="food" placeholder="$0"></div>
+                  </div>
+                  <div class="d-flex col align-items-center container-fluid mt-3 gap-5">
+                    <div class="col d-flex align-items-center ">
+                       <img style="height: 20px;" src="images/coffee-svgrepo-com.png" alt="">
+                       <div class="exp">Coffee</div>
+                    </div>
+                    <div class="col text-end zero"><input type="number" id="coffee" placeholder="$0"></div>
+                  </div>
+                  <div class="d-flex col align-items-center mt-3 gap-5 container-fluid">
+                    <div class="col d-flex align-items-center ">
+                       <img style="height: 20px;" src="images/health-svgrepo-com.png" alt="">
+                       <div class="exp">Health</div>
+                    </div>
+                    <div class="col text-end zero"><input type="number" id="health" placeholder="$0"></div>
+                  </div>
+                  <div class="d-flex col align-items-center mt-3 gap-5 container-fluid">
+                    <div class="col d-flex align-items-center ">
+                       <img style="height: 20px;" src="images/car-svgrepo-com.png" alt="">
+                       <div class="exp">Transport</div>
+                    </div>
+                    <div class="col text-end zero"><input type="number" id="trans" placeholder="$0"></div>
+                  </div> 
+                  <div class="d-flex col align-items-center mt-3 gap-5 container-fluid">
+                    <div class="col d-flex align-items-center ">
+                       <img style="height: 20px;" src="images/menu-2-svgrepo-com.png" alt="">
+                       <div class="exp">Others</div>
+                    </div>
+                    <div class="col text-end zero"><input type="number" id="oth" placeholder="$0"></div>
+                  </div> 
+                  <button class="btn btn-danger my-5 fs-3 fw-semibold container " onclick="calc()">Calculate</button>
+                </div>
+                 
+
+            </div>
+
+            
+   
+
+    <script src="/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+    <script src="nana.js"></script>
+</body>
+</html>

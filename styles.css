@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+
+}
+.interface{
+    background-color: purple;
+}
+.bag{
+padding-left: 250px;
+}
+.body_1 {
+    padding: 0 20px;
+    max-width: 100vw;
+  }
+  
+  body {
+    max-width: 100vw;
+  }
+ 
+  .top-container {
+    height: 35vh;
+    border-radius: 10px;
+    background-color: #5D1D88;
+    margin: 0;
+    width: 100%;
+    
+  }
+  select {
+    border: none;
+    outline: none;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  .top-container h1 {
+    font-size: 70px;
+  }
+  
+  .top-container h2{
+    font-size: 50px;
+    font-weight: 100
+  }
+  .left_div{
+    background-color: #FFB700;
+  }
+  .right_div{
+    background-color: #49a078;
+  }
+  .Phone{
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .exp {
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 30px;
+  }
+  .zero {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .exp {
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 30px;
+}
+  
+  
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+::placeholder {
+    color: black;
+    font-weight: 600;
+    text-align: end;
+}
+  
+button {
+    width: 100%;
+}
+  
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+
+
+
+
+@media screen and (max-width:475px) {
+    #bal{
+        font-size: 55px;
+    }
+    .top-container {
+      height: 25vh;
+    }
+    .top-container h2{
+font-size: 35px;
+    }
+  
+}
+
+
+
+
+
