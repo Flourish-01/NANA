@@ -100,7 +100,7 @@ button {
 
 
 
-@media screen and (max-width:475px) {
+@media screen and (min-width:350px) and (max-width:475px) {
     #bal{
         font-size: 55px;
     }
@@ -110,8 +110,37 @@ button {
     .top-container h2{
 font-size: 35px;
     }
+    .spendings{
+      margin-right: 20px;
+    }
+    .exp{
+      font-size: 24px ;
+    }
   
 }
+@media screen and (max-width:340px) {
+  #bal{
+    font-size: 55px;
+}
+.top-container {
+  height: 25vh;
+}
+.top-container h2{
+font-size: 20px;
+}
+.spendings{
+  margin-right: 20px;
+}
+.Her_money{
+margin-right: 90px;
+
+}
+.exp{
+  font-size: 20px ;
+}
+
+}
+
 
 
 
