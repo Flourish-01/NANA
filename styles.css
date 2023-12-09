@@ -72,15 +72,21 @@ padding-left: 250px;
 input {
     width: 100%;
     border: none;
-    border-bottom: 1px solid black;
-    outline: none;
+      border: 1px solid black;
+      outline: none;
+      border-top: none;
+      border-radius: 10px;
+      border-left: hidden;
+      padding-left: 40px;
+      
 }
 
 ::placeholder {
     color: black;
     font-weight: 600;
     text-align: end;
-}
+    
+  }
   
 button {
     width: 100%;
